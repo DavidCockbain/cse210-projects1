@@ -1,9 +1,19 @@
 using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Foundation1 World!");
+        Comment comment= new Comment();
+        
+        
+        Console.WriteLine("loading");
+        Console.WriteLine();
+    
+    
     }
+    //Display();
+        
 }
